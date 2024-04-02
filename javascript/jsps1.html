@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table border="1">
+    <tr>
+        <th>arthmaic</th>
+        <th>relational</th>
+        <th>logical</th>
+        <tr></tr>
+        <td id="b1"></td>
+        <td id="b2"></td>
+        <td id="b3"></td>
+        <td id="b4"></td>
+    </tr>
+    <tr>
+        
+        <td id="b5"></td>
+        <td id="b6"></td>
+        <td id="b7"></td>
+        <td id="b8"></td>
+    </tr>
+    <tr>
+        
+        <td id="b9"></td>
+        <td id="b10"></td>
+        <td id="b11"></td>
+        
+    </tr>
+   </table>
+  
+    <script> 
+    
+   var a=parseInt(prompt("enter the a value is::"))
+   var b=parseInt(prompt("enter the b value is::"))
+
+    document.getElementById("b1").innerHTML="add"+ (a+b);
+    document.getElementById("b2").innerHTML="divided"+ (a/b);
+    document.getElementById("b3").innerHTML="multi"+ (a*b);
+    document.getElementById("b4").innerHTML="module"+ (a%b);
+
+// relational
+document.getElementById("b5").innerHTML="greaterthan"+ (a<b);
+document.getElementById("b6").innerHTML="lessthan"+ (a>b);
+document.getElementById("b7").innerHTML="equal"+ (a==b);
+document.getElementById("b8").innerHTML="notequal to"+ (a!=b);
+
+// logical
+document.getElementById("b9").innerHTML="AND"+ (a>b)&&(b<a);
+document.getElementById("b10").innerHTML="OR"+ (a<b)||(b<a);
+document.getElementById("b11").innerHTML=""+! (a>b);
+// document.getElementById("b12").innerHTML="not"+ (a!=b);
+
+
+
+   
+    </script> 
+    <!-- <table>
+            <tr>
+                <th>Arithmetic</th>
+                <th>Logical</th>
+                <th>Relational</th>
+            </tr>
+            <tr >
+                <td  id="add" > </td>
+                <td id="true"></td>
+                <td id="flase"></td>
+            </tr>
+            <tr>
+                <td id="sub"></td>
+                <td id="not"></td>
+                <td id="rel"></td>
+            </tr>
+            <tr>
+                <td id="ari"></td>
+                <td id="log"></td>
+                <td id="ion"></td>
+            </tr>
+            <tr>
+                <td id="div"></td>
+                <td id="or"></td>
+                <td id="eq"></td>
+            </tr>
+        </table>
+        <script>
+            var a,b,c,d,e,f,g,h,i,j,k;
+           
+            a=parseInt(prompt("Enter the value for a: "+a));
+            b=parseInt(prompt("Enter the value for b: "+b));
+            c=(a+b);
+            d=(a<b)&&(b>a);
+            e=(a>b);
+            document.getElementById("add").innerHTML=c;
+            document.getElementById("true").innerHTML=d;
+            document.getElementById("flase").innerHTML=e;
+            f=(a-b);
+            g=(!(a<b));
+            h=(b>=a);
+            document.getElementById("sub").innerHTML=f;
+            document.getElementById("not").innerHTML=g;
+            document.getElementById("rel").innerHTML=h;
+            i=(a*b);
+            j=(!(a<b));
+            k=(b>=a);
+            document.getElementById("ari").innerHTML=i;
+            document.getElementById("log").innerHTML=j;
+            document.getElementById("ion").innerHTML=k;
+            l=(a/b);
+            m=(a>b)||(b>a);
+            n=(b===a);
+            document.getElementById("div").innerHTML=l;
+            document.getElementById("or").innerHTML=m;
+            document.getElementById("eq").innerHTML=n;
+            </script> -->
+</body>
+</html>
