@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table border="1">
+    <tr>
+        <th>arthmaic</th>
+        <th>relational</th>
+        <th>logical</th>
+        <tr></tr>
+        <td id="b1"></td>
+        <td id="b2"></td>
+        <td id="b3"></td>
+        <td id="b4"></td>
+    </tr>
+    <tr>
+        
+        <td id="b5"></td>
+        <td id="b6"></td>
+        <td id="b7"></td>
+        <td id="b8"></td>
+    </tr>
+    <tr>
+        
+        <td id="b9"></td>
+        <td id="b10"></td>
+        <td id="b11"></td>
+        
+    </tr>
+   </table>
+  
+    <script> 
+    
+   var a=parseInt(prompt("enter the a value is::"))
+   var b=parseInt(prompt("enter the b value is::"))
+
+    document.getElementById("b1").innerHTML="add"+ (a+b);
+    document.getElementById("b2").innerHTML="divided"+ (a/b);
+    document.getElementById("b3").innerHTML="multi"+ (a*b);
+    document.getElementById("b4").innerHTML="module"+ (a%b);
+
+// relational
+document.getElementById("b5").innerHTML="greaterthan"+ (a<b);
+document.getElementById("b6").innerHTML="lessthan"+ (a>b);
+document.getElementById("b7").innerHTML="equal"+ (a==b);
+document.getElementById("b8").innerHTML="notequal to"+ (a!=b);
+
+// logical
+document.getElementById("b9").innerHTML="AND"+ (a>b)&&(b<a);
+document.getElementById("b10").innerHTML="OR"+ (a<b)||(b<a);
+document.getElementById("b11").innerHTML=""+! (a>b);
+// document.getElementById("b12").innerHTML="not"+ (a!=b);
+
+
+
+   
+    </script> 
+    
+</body>
+</html>

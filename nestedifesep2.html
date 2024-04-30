@@ -1,0 +1,56 @@
+      <body>
+        <span id="a"></span>
+      </body><script>
+
+
+
+    // var subject=parseInt(prompt("enter your std"))
+    // if(subject<=12)
+    // {
+    //     var total=parseInt(prompt("enter your mark"))
+    //     if(175<total)
+    //     {
+    //     document.write("tamil");
+    //     document.write("english");
+    //     document.write("total:"+total+"you pass")
+    //     }
+
+    //     else
+    //     {
+    //     document.write("tamil");
+    //     document.write("english");
+    //     document.write("total:"+total+"you fail")
+    //     }
+
+    // }
+    // else
+    // {
+    //     alert("you absent")
+    // }
+
+
+    let subject=parseInt(prompt("enter your std"));
+    if(subject<=12)
+    {
+       let total=parseInt(prompt("enter your mark"));
+       if(175<total)
+       
+       {
+        document.getElementById("a").innerHTML="tamil <br>english <br> total= "+total+"you pass"
+       
+       }
+       else
+       {
+        document.getElementById("a").innerHTML="tamil <br>english <br> total= "+total+"you fail"
+       }
+        
+       
+
+    }
+    else
+    {
+        alert("you absent")
+    }
+    
+    
+</script>

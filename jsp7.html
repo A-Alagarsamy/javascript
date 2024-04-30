@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var age=parseInt(prompt("enter the age"))
+        
+        if(age>61)
+        {
+           var sal=parseInt(prompt("enter your salary"))
+
+           if(sal>20000)
+           {
+            bns=sal+500;
+
+            document.write("details of employee");
+            document.write("Age:"+age+"<br>salary"+sal);
+            document.write("<hr>Bonus amount is:"+bns)
+
+           }
+           else
+           {
+            document.write("details of employee")
+            document.write("Age:"+age+"<br>salary"+sal)
+            document.write("the bonus will be given next month");
+           }
+        }
+        else
+        {
+            alert("sorry,you are not eligible")
+        }
+    </script>
+    
+</body>
+</html>
